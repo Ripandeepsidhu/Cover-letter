@@ -1,3 +1,11 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 80px;
+}
 .image
 {
 height: 400px;
@@ -19,8 +27,16 @@ header{
     justify-content: space-evenly;
     align-items: center;
 }
+.third-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    text-align: center;
+}
 p{
-    font-size: 14px;
+    font-size: 16px;
 }
 footer{
     text-align: center;
